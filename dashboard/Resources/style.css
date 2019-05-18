@@ -1,0 +1,81 @@
+.navbar {
+    padding: 0px 0px 0;
+  }
+.navbar .navbar-brand.custom {
+    color: white;
+    background: #593196;
+  }
+.row {
+    background-color: white;
+  }
+h3, h4 {
+    color: #593196;    
+  }
+.footer {
+    text-align: center;
+  }
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+#imghome {
+  float: left;
+  width: 250px;
+  height: 200px;
+  margin-right: 10px;
+}
+.border-vis {
+  border: 2px solid;
+  border-color: #593196; 
+}
+.nav-pills .pill-1 .nav-link:not(.active) {
+  background-color:  white;
+  color: gray;
+}
+.nav-pills .pill-2 .nav-link:not(.active) {
+  background-color:  white;
+  color: gray;
+}
+.nav-pills .pill-3 .nav-link:not(.active) {
+  background-color:  white;
+  color: gray;
+}
+.nav-pills .pill-4 .nav-link:not(.active) {
+  background-color:  white;
+  color: gray;
+}
+.nav-pills .pill-5 .nav-link:not(.active) {
+  background-color:  white;
+  color: gray;
+}
+.nav-pills .pill-1 .nav-link {
+  background-color:  #593196;
+  color: white;
+}
+.nav-pills .pill-2 .nav-link {
+  background-color:  #593196;
+}
+.nav-pills .pill-3 .nav-link {
+  background-color:  #593196;
+  color: white;
+}
+.nav-pills .pill-4 .nav-link {
+  background-color:  #593196;
+  color: white;
+}
+.nav-pills .pill-5 .nav-link {
+  background-color:  #593196;    
+  color: white;
+}
+.tab-content  {
+  overflow: auto;
+} 
+@media (max-width: 768px) {
+    nav.navbar {
+      background: #593196;
+    }
+    .navbar .nav-item {
+      color:#593196;
+      background:  white;
+    }
+}
