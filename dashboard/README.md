@@ -1,6 +1,6 @@
 # Web Visualization Dashboard (Latitude) Assignment
 
-# Background
+## Background
 
 Create a dashboard for the Weather data analysis, with HTML 5, CSS, and Bootstrap 4.0.
 
@@ -12,15 +12,18 @@ This dashboard website uses the visualizations created in the [PyWeather - APIs 
 
 The [website](https://github.com/bkachava/) consists of 7 pages total:
 
-* A landing page containing of an explanation of the project and links to each visualizations page.
+* A <strong>landing page</strong> containing of an explanation of the project and links to each visualizations page.
   ![home](Resources/home.png)
+
 * Four visualization pages, each with a descriptive title and heading tag, the plot/visualization itself for the selected comparison and a paragraph describing the plot and its significance.
   ![four](Resources/four.png)
+
 * A "Comparisons" page that contains all the visualizations on the same page and uses a bootstrap grid for the visualizations, considering the following: 
   - Two visualizations across on screens medium and larger
   ![comp_xmsm](Resources/comp_xmsm.png) 
   - One across on extra-small and small screens.
   ![comp_mdlg](Resources/comp_mdlg.png) 
+
 * A "Data" page that displays a responsive table (a bootstrap table component) containing the data used in the visualizations. The data come from exporting the [cities_dt.csv](Resources/cities_dt.csv) file as HTML, using [ConvertCSV](http://www.convertcsv.com/csv-to-html.htm). The table  
   - On larger screens. As described above.
   ![table_lg](Resources/table_lg.png) 
