@@ -20,21 +20,21 @@ The [website](https://github.com/bkachava/) consists of 7 pages total:
 
   ![four](Resources/four.png)
 
-* A <strong>"Comparisons" page</strong> that contains all the visualizations on the same page and uses a bootstrap grid for the visualizations, considering the following: 
+* A <strong>Comparisons page</strong> that contains all the visualizations on the same page and uses a bootstrap grid for the visualizations, considering the following: 
 
   - Two visualizations across on screens medium and larger
   ![comp_xmsm](Resources/comp_xssm.png) 
   - One across on extra-small and small screens.
   ![comp_mdlg](Resources/comp_mdlg.png) 
 
-* A <strong>"Data" page</strong> that displays a responsive table (a bootstrap table component) containing the data used in the visualizations. The data come from exporting the [cities_dt.csv](Resources/cities_dt.csv) file as HTML, using [ConvertCSV](http://www.convertcsv.com/csv-to-html.htm). The table  
+* A <strong>Data page</strong> that displays a responsive table (a bootstrap table component) containing the data used in the visualizations. The data come from exporting the [cities_dt.csv](Resources/cities_dt.csv) file as HTML, using [ConvertCSV](http://www.convertcsv.com/csv-to-html.htm). The table  
 
   - On larger screens. As described above.
   ![table_lg](Resources/table_lg.png) 
-  - On  extra-small, small and medium screens
+  - On extra-small, small and medium screens. Notice the horizontal scroll bar below the last displayed row.
   ![table_xssmmd](Resources/table_xssmmd.png) 
 
-Also, at the top of every page, there is a responsive navigation menu (using media queries) that on the left, has the name of the site which allows users to return to the landing page from any page, and on the right, contains a dropdown named "Plots" which provides links to each individual visualization page, the option "Comparisons" which links to the comparisons page, and the option "Data" which links to the data page. The Navigation Menu has the following behavior:
+Also, at the top of every page, there is a responsive <strong>navigation menu</strong> (using media queries) that on the left, has the name of the site which allows users to return to the landing page from any page, and on the right, contains a dropdown named "Plots" which provides links to each individual visualization page, the option "Comparisons" which links to the comparisons page, and the option "Data" which links to the data page. The Navigation Menu has the following behavior:
 
 - On larger screens. As described above.
   ![menu_lg](Resources/menu_lg.png) 
