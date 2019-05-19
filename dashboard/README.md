@@ -38,9 +38,7 @@ Also, at the top of every page, there is a responsive <strong>navigation menu</s
 
 - On larger screens. As described above.
   ![menu_lg](Resources/menu_lg.png) 
-- On medium screens. Notice the collapsed options to the right.
-  ![menu_md](Resources/menu_md.png) 
-- On extra-small and small screens. Notice the background color changed and the collapsed options to the right.
+- On extra-small, small, and medium screens. Notice the background color changed and the collapsed options to the right.
   ![menu_xssm](Resources/menu_xssm.png) 
 
 

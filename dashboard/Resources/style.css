@@ -70,7 +70,7 @@ h3, h4 {
 .tab-content  {
   overflow: auto;
 } 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     nav.navbar {
       background: #593196;
     }
