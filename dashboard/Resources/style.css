@@ -74,7 +74,15 @@ h3, h4 {
     nav.navbar {
       background: #593196;
     }
-    .navbar .nav-item {
+    .navbar .navbar-toggler,
+    .navbar .navbar-toggler:hover,
+    .navbar .navbar-togglere:focus {
+      border-color: lightgrey;
+    }
+   .navbar .navbar-toggler .navbar-toggler-icon {
+      background-color: whitesmoke;
+    }
+   .navbar .nav-item {
       color:#593196;
       background:  white;
     }
