@@ -21,14 +21,31 @@
 ### Mars Hemispheres
 	
 	Visit the USGS Astrogeology site to obtain high resolution images for each of Mars Hemispheres.
+
 	
-Jupyter [Notebook](../Notebook) containing the scraping code used.
+Here is the Jupyter [Notebook](../Notebook) containing the scraping code used.
 
 
 ## Step 2 - MongoDB and Flask Application
 
-2. Screenshots of the final application.
+### Screenshots of the final application
 
-  ![part1](Images/part1.png)
-  
-  ![part2](Images/part2.png)
+- When there is no information in the database
+
+![part1](Images/mtm1_a.png)
+
+- After selecting the button __Scrape New Data__
+
+![part2](Images/mtm1_b.png)
+
+- Layout for NASA Mars New, Featured Mars Image, Current Weather on Mars, and Mars Facts 
+
+![part3](Images/mtm2.png)
+
+- Layout for Mars Hemispheres
+
+![part4](Images/mtm5.png)
+
+- After selecting the button __Scrape New Data__ again!
+
+![part5](Images/mtm6.png)

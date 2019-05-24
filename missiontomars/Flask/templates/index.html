@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mission to Mars</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron text-center">
+      <h1>Mission to Mars</h1>
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+    </div> <!--jumbotron-->
+    <!--  Render Mars data -->
+    {% if info is not none %}
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="heading">Latest Mars News</h3>
+        <h5 class="heading">{{info.news_title}}</h5>
+        <p>{{info.news_p}}</p>
+      </div> <!--col-->
+    </div> <!--first row-->
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="heading">Featured Mars Image</h3>
+        <figure class="figure">
+            <img src="{{info.space_image}}" class="figure-img img-fluid rounded" alt="Mars">
+        </figure>
+      </div> <!--col-->
+      <div class="col-md-6">
+          <div class="card custom">
+              <div class="card-body">
+                <h5 class="card-title">Current Weather on Mars</h5>
+                <p class="card-text">{{info.weather}}</p>
+              </div>
+            </div>
+            <p></p>
+            <div class="card custom border border-white">
+                <h5 class="card-title">Mars Facts</h5>
+                <p class="card-text">{{info.facts|safe}}</p>
+            </div>
+      </div> <!--col-->
+    </div> <!--second row-->
+    <div class="row">
+      <p></p>
+      <div class="col-md-12">
+        <h3 class="heading text-center">Mars Hemispheres</h3>
+        <hr class="my-4">
+      </div>  <!--col-->
+    </div> <!--third row-->
+     <div class="row">
+    <div class="col-md-6">
+          <figure class="figure rounded img-thumbnail">
+            <img src="{{info.hemispheres[0].img_url}}" class="img-fluid float-left" alt="Hemispheres">
+             <figcaption class="figure-caption bg-hems text-white font-weight-bold">&nbsp;{{info.hemispheres[0].title}}</figcaption>
+          </figure>
+        </div>
+        <div class="col-md-6">
+          <figure class="figure rounded img-thumbnail">
+            <img src="{{info.hemispheres[1].img_url}}" class="img-fluid float-right" alt="Hemispheres">
+             <figcaption class="figure-caption bg-hems text-white font-weight-bold">&nbsp;{{info.hemispheres[1].title}}</figcaption>
+          </figure>
+        </div>
+        <div class="col-md-6">
+          <figure class="figure rounded img-thumbnail">
+            <img src="{{info.hemispheres[2].img_url}}" class="img-fluid float-left" alt="Hemispheres">
+            <figcaption class="figure-caption bg-hems text-white font-weight-bold">&nbsp;{{info.hemispheres[2].title}}</figcaption>
+          </figure>
+        </div>
+        <div class="col-md-6">
+          <figure class="figure rounded img-thumbnail">
+            <img src="{{info.hemispheres[3].img_url}}" class="img-fluid float-right" alt="Hemispheres">
+            <figcaption class="figure-caption bg-hems text-white font-weight-bold">&nbsp;{{info.hemispheres[3].title}}</figcaption>
+          </figure>
+        </div>
+      </div>  <!--col-->
+    </div>  <!--fourth row-->       
+      {% endif %}
+  </div>   <!--container-->
+</body>
+
+</html>
+

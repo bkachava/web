@@ -1,0 +1,20 @@
+thead {
+    text-align: center;
+    background-color: lightgrey;
+}
+tr, td {
+    border: 1px dotted black;
+  }
+.dataframe {
+    width:100%;
+    border: 1px solid black;
+    border-inline: 1px  solid black;
+    border-collapse: collapse;
+    border-spacing: 5px;
+}
+.card custom {
+    width: 100%;
+}
+.bg-hems {
+    background-color: lightsalmon;
+}
