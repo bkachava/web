@@ -41,7 +41,7 @@ Here is the Jupyter [Notebook](../Notebook) containing the scraping code used.
 ![part2](Images/mtm1_b.png)
 
 
-- _Layout for NASA Mars New, Featured Mars Image, Current Weather on Mars, and Mars Facts__ 
+- __Layout for NASA Mars New, Featured Mars Image, Current Weather on Mars, and Mars Facts__
 
 ![part3](Images/mtm2.png)
 
