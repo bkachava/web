@@ -31,6 +31,13 @@ Search for UFO sightings using the criteria defined for each level.
     ![part5](Images/4_filter_date.png)
 
 
+   * Buttons
+   
+   __Filter data__. Let the user search in the dataset with different criteria.
+   
+   __Show all data__. Let the user clear all the filters and show all the dataset.
+
+
 ## Level 2: Multiple Search Categories
 
 - Filters
@@ -53,14 +60,14 @@ Search for UFO sightings using the criteria defined for each level.
    * For the country, the states and the cities filters __some rules__ were applied. 
 
 
-    If the user selected a specific country (e.g. CA), the list of states will be filled with the unique values found in the dataset for this country. 
+     If the user selected a specific country (e.g. CA), the list of states will be filled with the unique values found in the dataset for this country. 
 
     ![part10](Images/2_filter_state.png)
 
     `Note that if the user selected the first value of the list of countries --Country-- the options created for the states are removed.`
 
 
-    If the user selected a specific state (e.g. ON), the list of cities will be filled with the unique values found in the dataset for this state. 
+     If the user selected a specific state (e.g. ON), the list of cities will be filled with the unique values found in the dataset for this state. 
 
     ![par7](Images/2_filter_city.png)
 
