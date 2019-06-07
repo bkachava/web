@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>UFO Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">UFO Sightings
+            <img class="nav-ufo" src="static/images/ufo.svg">
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="hero text-center">
+      <h1>UFO Sightings</h1>
+      <p>The Truth is Out There</p>
+    </div>
+    <div class="container">
+      <div class="row margin-top-50">
+        <div class="col-md-2">
+          <aside class="filters">
+              <div class="card text-white bg-info mb-3">
+                  <div class="card-header">Filter Search</div>
+                  <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                          <ul class="list-group" id="filters">
+                            <li class="filter list-group-item bg-light">
+                              <label for="date">Enter a Date:</label>
+                              <input id="date" class="form-control" type="text" name="date" placeholder="MM/DD/YYYY" />
+                            </li>
+                          </ul>
+                          <li class="filter list-group-item bg-light">
+                            <label for="date">Or select:</label>
+                            <select id="country">
+                                <option value="0">--Country--</option>
+                              </select>
+                            <select id="state">
+                              <option value="0">--State--</option>
+                            </select>
+                            <select id="city">
+                                <option value="0">--City--</option>
+                              </select>
+                            <select id="shape">
+                               <option value="0">--Shape--</option>
+                             </select>
+                           </li>
+                        </div>
+                        <div class="text-center"><button id="filterbtn" type="submit" class="btn btn-primary">Filter data</button></div>
+                        <p></p>
+                        <div class="text-center"><button id="nofilterbtn" type="submit" class="btn btn-secondary">Show all data</button></div>
+                      </form>
+                  </div>
+                </div>
+          </aside>
+        </div>
+        <div class="col-md-10">
+          <div id="table-area" class="">
+            <table id="ufo-table" class="table table-secondary">
+              <thead>
+                <tr>
+                  <th class="table-head">Date</th>
+                  <th class="table-head">City</th>
+                  <th class="table-head">State</th>
+                  <th class="table-head">Country</th>
+                  <th class="table-head">Shape</th>
+                  <th class="table-head">Duration</th>
+                  <th class="table-head">Comments</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <span class="bottom">UFO Sightings</span>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="static/js/data.js"></script>
+  <script src="static/js/app.js"></script>
+</body>
+
+</html>
