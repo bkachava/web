@@ -26,7 +26,7 @@ Search for UFO sightings using the criteria defined for each level.
 
      For this level, the user can provide a valid date (e.g. 01/05/2010, 1/5/2010, 01/13/2010, 1/13/2010) to filter data. 
      
-     A calendar is shown, when the user tried to enter a date.
+     A calendar is shown, when the user try to enter a date.
 
     ![part5](Images/4_filter_date.png)
 
