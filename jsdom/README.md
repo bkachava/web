@@ -35,11 +35,11 @@ Search for UFO sightings using the criteria defined for each level.
 
 - Filters
     
-    For this level, the user can select a country, a state, a city or a shape. These selections, along with the date, will be used to filter data. `Note that all the values provided by the user, must be present in a element of the dataset for it to be included in the table`. 
+   * For this level, the user can select a country, a state, a city or a shape. These selections, along with the date, will be used to filter data. `Note that all the values provided by the user, must be present in a element of the dataset for it to be included in the table`. 
 
     ![part6](Images/1_filters.png)
 
-    When the page is loaded, the Country and Shape lists are filled with options representing the unique values found in the dataset.
+   * When the page is loaded, the Country and Shape lists are filled with options representing the unique values found in the dataset.
 
     __Country__
 
@@ -49,27 +49,22 @@ Search for UFO sightings using the criteria defined for each level.
     
     ![part9](Images/3_filter_shape.png)
 
-    For the country, the states and the cities filters __some rules__ were applied. 
-    
+
+   * For the country, the states and the cities filters __some rules__ were applied. 
+
+
     If the user selected a specific country (e.g. CA), the list of states will be filled with the unique values found in the dataset for this country. 
 
     ![part10](Images/2_filter_state.png)
 
-    `Note that if the user selected the first value of the list of countries __--Country--__ the options created for the states are removed.`
+    `Note that if the user selected the first value of the list of countries --Country-- the options created for the states are removed.`
+
 
     If the user selected a specific state (e.g. ON), the list of cities will be filled with the unique values found in the dataset for this state. 
 
     ![par7](Images/2_filter_city.png)
 
-    `Note that if the user selected the first value of the list of states __--State--__ the options created for the cities are removed.`
-
-     A message is displayed, in case the user clicked the button __Filter data__ and did not provided any criteria.
-
-    ![part11](Images/9_nofilters.png)
-
-     A message is displayed, in case the user provided a valid date and clicked the button __Filter data__ but there were no coincidences in  the data.
-
-     ![part12](Images/10_nodata.png)
+    `Note that if the user selected the first value of the list of states --State-- the options created for the cities are removed.`
 
 
 - Messages
@@ -78,6 +73,7 @@ Search for UFO sightings using the criteria defined for each level.
 
      ![part13](Images/9_nofilters.png)
 
+
      A message is displayed, in case the user provided a valid date, and/or select an element, and clicked the button __Filter data__ but there were no coincidences in the dataset.
 
      ![part14](Images/10_nodata.png)
@@ -85,26 +81,22 @@ Search for UFO sightings using the criteria defined for each level.
 
 - Search examples
 
-   A new dataset is displayed, when the user clicked the button __Filter data__ and enter a valid date.
+  * A new dataset is displayed, when the user clicked the button __Filter data__ and enter a valid date.
 
   ![part15](Images/4_results_date.png)
 
-  A new dataset is displayed, when the user clicked the button __Filter data__ and selected a country and a state.
+  * A new dataset is displayed, when the user clicked the button __Filter data__ and selected a country and a state.
 
   ![part16](Images/5_results_cs.png)
 
-  A new dataset is displayed, when the user clicked the button __Filter data__ and selected a country, a state, and a city.
+   * A new dataset is displayed, when the user clicked the button __Filter data__ and selected a country, a state, and a city.
 
   ![part17](Images/6_results_csc.png)
 
-  A new dataset is displayed, when the user clicked the button __Filter data__ and selected a shape.
+  * A new dataset is displayed, when the user clicked the button __Filter data__ and selected a shape.
 
   ![part18](Images/7_results_shape.png)
 
-  A new dataset is displayed, when the user clicked the button __Filter data__ and selected all the criteria.
+  * A new dataset is displayed, when the user clicked the button __Filter data__ and selected all the criteria.
 
   ![part19](Images/8_results_all.png)
-
-
-
-
