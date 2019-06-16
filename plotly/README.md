@@ -17,23 +17,26 @@ __Main elements__
 ![part2](images/metadata.png)
 
 
-- Pie chart. Data from the samples route (`/samples/<sample>`) to display the top 10 Operational 
+- __Pie chart__. Data from the samples route (`/samples/<sample>`) to display the top 10 Operational 
 Taxonomic Units. The Sample ID was added to the chart, in case the user wanted to download the 
 plot as a png.
 
 ![part3](images/piechart_1.png)
 
 
-* Hover
-![part4](images/piechart_2.png)
+   __Hover__
 
-- Bubble Chart. Data from the samples route to display each sample. The Sample ID was added to the 
+   ![part4](images/piechart_2.png)
+
+
+- __Bubble Chart__. Data from the samples route to display each sample. The Sample ID was added to the 
 chart, in case the user wanted to download the plot as a png.
 
 ![part5](images/bubblechart_1.png)
 
-* Hover
-![part6](images/bubblechart_2.png)
+   __Hover__
+   
+   ![part6](images/bubblechart_2.png)
 
 
 - Update all of the plots any time a new sample is selected.
@@ -60,14 +63,14 @@ required files, to deploy to Heroku, were created.
    ![part11](images/heroku.png)
 
 
-Link to the app [bkabelly] (https://bkabelly.herokuapp.com/)
+   __Link to the app__ [bkabelly](https://bkabelly.herokuapp.com/)
 
 
 ## Advanced Challenge Assignment
 
-- Gauge Chart
+- __Gauge Chart__
 
-* Adapt the [Gauge Chart] (https://plot.ly/javascript/gauge-charts/) to plot the Weekly Washing 
+* Adapt the [Gauge Chart](https://plot.ly/javascript/gauge-charts/) to plot the Weekly Washing 
 Frequency obtained from the `/metadata/<sample>` route. The Sample ID was added to the chart,
 in case the user wanted to download the plot as a png. 
 
@@ -81,7 +84,7 @@ in case the user wanted to download the plot as a png.
 
 - Flask API
 
-Use Flask API to serve the data needed for the plots. Use the buttons after the text __Or use the API to get the data__.
+  Use Flask API to serve the data needed for the plots. Use the buttons after the text `Or use the API to get the data`.
 
    ![part13](images/api.png)
 
@@ -111,7 +114,7 @@ Use Flask API to serve the data needed for the plots. Use the buttons after the 
 
 Additionally, the dashboard:
 
-* Uses a bootstrap theme named [Minty] (https://bootswatch.com/minty/).
+* Uses a bootstrap theme named [Minty](https://bootswatch.com/minty/).
 
 * The charts have the same colors than the bootstrap theme and not the defaults provided by Plotly.
 
