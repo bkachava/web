@@ -11,8 +11,8 @@ Use Plotly.js to build interactive charts for the dashboard.
 
 __Main elements__
 
-- Display key/value pair from the sample metadata JSON object. Data from the route (`/metadata/<sample>`)
-  to display each selected sample.
+- __Sample Metadata__. Display key/value pair from the sample metadata JSON object. Data from the route
+  (`/metadata/<sample>`)  to display each selected sample.
 
 ![part2](images/metadata.png)
 
@@ -24,7 +24,7 @@ plot as a png.
 ![part3](images/piechart_1.png)
 
 
-   __Hover__
+   __Pie chart Hover__
 
    ![part4](images/piechart_2.png)
 
@@ -34,10 +34,12 @@ chart, in case the user wanted to download the plot as a png.
 
 ![part5](images/bubblechart_1.png)
 
-   __Hover__
+   __Bubble chart Hover__
    
    ![part6](images/bubblechart_2.png)
 
+
+__Updates__
 
 - Update all of the plots any time a new sample is selected.
 
@@ -57,7 +59,7 @@ chart, in case the user wanted to download the plot as a png.
 
 ## Step 2 - Heroku
 
-Deploy the Flask app to Heroku. After testing the application locally, the code was refactored and the
+__Deploy the Flask app to Heroku__. After testing the application locally, the code was refactored and the
 required files, to deploy to Heroku, were created.
 
    ![part11](images/heroku.png)
