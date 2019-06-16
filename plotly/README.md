@@ -57,7 +57,7 @@ chart, in case the user wanted to download the plot as a png.
 
 ## Step 2 - Heroku
 
-Deploy your Flask app to Heroku. After testing the application locally, the code was refactored and the
+Deploy the Flask app to Heroku. After testing the application locally, the code was refactored and the
 required files, to deploy to Heroku, were created.
 
    ![part11](images/heroku.png)
