@@ -68,7 +68,7 @@ required files, to deploy to Heroku, were created.
 
 ## Advanced Challenge Assignment
 
-- __Gauge Chart__
+__Gauge Chart__
 
 * Adapt the [Gauge Chart](https://plot.ly/javascript/gauge-charts/) to plot the Weekly Washing 
 Frequency obtained from the `/metadata/<sample>` route. The Sample ID was added to the chart,
@@ -82,7 +82,7 @@ in case the user wanted to download the plot as a png.
    See examples for __samples 940 y 1524__ above.
 
 
-- Flask API
+__Flask API__
 
   Use Flask API to serve the data needed for the plots. Use the buttons after the text `Or use the API to get the data`.
 
