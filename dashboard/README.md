@@ -10,7 +10,7 @@ This dashboard website uses the visualizations created in the [PyWeather - APIs 
 
 ### Website Features
 
-The [website](https://github.com/bkachava/) consists of 7 pages total:
+The [website](https://bkachava.github.io/web/dashboard) consists of 7 pages total:
 
 * A <strong>landing page</strong> containing of an explanation of the project and links to each visualizations page.
 
