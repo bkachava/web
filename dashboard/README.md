@@ -2,7 +2,7 @@
 
 ## Background
 
-Create a dashboard for the Weather data analysis, with HTML 5, CSS, and Bootstrap 4.0.
+A dashboard for the Weather data analysis was created, using HTML 5, CSS, and Bootstrap 4.0.
 
 ## Blanttitude - Latitude Analysis Dashboard with Attitude
 
