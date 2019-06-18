@@ -1,6 +1,6 @@
 # Web Technologies Assignments
 
-Apply the skills learned so far to some real-world situations.
+Applying the skills learned so far to some real-world situations.
 
  
 ## Blanttitude - Latitude Analysis Dashboard -> Web Visualizations
