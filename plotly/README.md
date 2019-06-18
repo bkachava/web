@@ -7,7 +7,7 @@ __Belly Button Biodiversity Dashboard__
 
 ## Step 1 - Plotly.js
 
-Use Plotly.js to build interactive charts for the dashboard.
+Use __Plotly.js__ to build interactive charts for the dashboard.
 
 __Main elements__
 
@@ -86,7 +86,7 @@ in case the user wanted to download the plot as a png.
 
 __Flask API__
 
-  Use Flask API to serve the data needed for the plots. Use the buttons after the text `Or use the API to get the data`.
+  Use __Flask__ API to serve the data needed for the plots. Use the buttons after the text `Or use the API to get the data`.
 
    ![part13](images/api.png)
 
@@ -116,10 +116,10 @@ __Flask API__
 
 Additionally, the dashboard:
 
-* Uses a bootstrap theme named [Minty](https://bootswatch.com/minty/).
+* Uses a __bootstrap theme__ named [Minty](https://bootswatch.com/minty/).
 
 * The charts have the same colors than the bootstrap theme and not the defaults provided by Plotly.
 
-* Uses a Heroku Postgress database with the data provided in the SQLite database. For this part, the schemas and the data from the SQLite database were extracted and then created in Postgress using pgAdmin.
+* Uses a __Heroku Postgress database__ with the data provided in the __SQLite database__. For this part, the schemas and the data from the SQLite database were extracted and then created in Postgress using pgAdmin.
 
    ![part17](images/pgadm.png)
