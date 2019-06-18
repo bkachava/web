@@ -14,7 +14,8 @@ Apply the skills learned so far to some real-world situations.
    * See the [Dashboard](https://bkachava.github.io/web/dashboard/)
    * Go to the [repository](dashboard/) 
    
-   
+
+
 ## Mission to Mars -> Web Scraping and Document Databases
 
    A web application that scrapes various websites for data related to the Mission to Mars and 
@@ -31,7 +32,8 @@ Apply the skills learned so far to some real-world situations.
     
    * Go to the [repository](missiontomars/) 
    
-   
+
+
 ## UFO sightings -> JavaScript and DOM Manipulation
 
    HTML, CSS, Bootstrap, JavaScript and D3.js were used to explore the [UFO Sightings Data](/jsdom/static/js/data.js), 
@@ -45,11 +47,12 @@ Apply the skills learned so far to some real-world situations.
 
    * Go to the [repository](jsdom/) 
    
-   
+
+
 ## Belly Button Biodiversity Dashboard -> Interactive Visualizations and Dashboard
 
-   HTML, CSS, Bootstrap, JavaScript, Plotly.js, JSON, Flask with a SQLite database, and Heroku with a Postgress 
-    database, were used to build an interactive dashboard for exploring the Belly Button Biodiversity DataSet.
+   HTML, CSS, Bootstrap, JavaScript, D3.js, Plotly.js, JSON, Flask with a SQLite database, and Heroku with a 
+   Postgress database, were used to build an interactive dashboard for exploring the Belly Button Biodiversity DataSet.
 
    - Step 1. Use Plotly.js to build [interactive charts](plotly/bkabelly/static/js/app.js) for the dashboard. 
     Includes:
