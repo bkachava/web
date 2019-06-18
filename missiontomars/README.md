@@ -24,7 +24,7 @@
     Visit the USGS Astrogeology site to obtain high resolution images for each of Mars Hemispheres.
 
 	
-Here is the Jupyter [Notebook](../Notebook) containing the scraping code used.
+Here is the Jupyter [Notebook](Notebook/mission_to_mars.ipynb) containing the scraping code used.
 
 
 ## Step 2 - MongoDB and Flask Application
