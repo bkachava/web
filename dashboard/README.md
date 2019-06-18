@@ -2,7 +2,7 @@
 
 ## Background
 
-A dashboard for the Weather data analysis was created, using HTML 5, CSS, and Bootstrap 4.0.
+A dashboard for the Weather data analysis was created, using __HTML 5, CSS, and Bootstrap 4.0__.
 
 ## Blanttitude - Latitude Analysis Dashboard with Attitude
 
@@ -56,7 +56,7 @@ Also, at the top of every page, there is a responsive <strong>navigation menu</s
 Additionally, the website:
 
 * Uses the dataset assembled for the [PyWeather - APIs assignment](https://github.com/bkachava/pandas/tree/master/PyWeather). However, the timestamps were changed to show the date and the time in a proper format. The code created to do this task is in the folder Notebook.
-* Uses a bootstrap theme named [Pulse] (https://bootswatch.com/pulse/).
+* Uses a __bootstrap theme__ named [Pulse] (https://bootswatch.com/pulse/).
 * Uses meaningful glyphicons next to links in the header. See [Open Iconic](https://useiconic.com/open/) to find out more.
 * Have visualization navigation on every visualizations page with an active state.
 ![active](Resources/active.png) 
