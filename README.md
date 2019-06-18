@@ -5,7 +5,7 @@ Applying the skills learned so far to some real-world situations.
  
 ## Blanttitude - Latitude Analysis Dashboard -> Web Visualizations
 
-   HTML, CSS, Bootstrap were used for building this dashboard, with a page for each plot and a means by which
+   __HTML, CSS, Bootstrap__ were used for building this dashboard, with a page for each plot and a means by which
     the user can navigate between them. These pages contained the visualizations created in the 
     [PyWeather - APIs assignment](https://github.com/bkachava/pandas/tree/master/PyWeather) and their 
     corresponding explanations. Also, includes a landing page, a page where we can see a comparison of all 
@@ -21,14 +21,15 @@ Applying the skills learned so far to some real-world situations.
    A web application that scrapes various websites for data related to the Mission to Mars and 
     displays the information in a single HTML page was built. 
 
-   - Step 1 - Scraping. The initial scraping used [Jupyter Notebook](/missiontomars/Notebook/mission_to_mars.ipynb), 
-    BeautifulSoup to help find and parse out the necessary data, Pandas library, and Requests/Splinter to navigate the sites.
+   - Step 1 - Scraping. [Jupyter Notebook](/missiontomars/Notebook/mission_to_mars.ipynb) was used to do the initial
+    scraping, __BeautifulSoup__ to help find and parse out the necessary data, __Pandas__ library to extract information, and 
+    __Requests/Splinter__ to navigate the sites.
     
-   - Step 2 - MongoDB and Flask Application. MongoDB with Flask templating and Bootstrap were used to create a HTML 
+   - Step 2 - __MongoDB__ and __Flask__ Application. MongoDB with Flask templating and Bootstrap were used to create a HTML 
     page, that displays all of the information that was scraped in the previous step. First, the Jupyter notebook was
     converted into a [Python script](/missiontomars/Flask/scrape_mars.py) and then a route to import the script 
-    was included in a [Flask Application](/missiontomars/Flask/app.py). Also, Pymongo library for the database was used and
-    each time the /scrape url is visited, the existing document is overwritten and new data is obtained.
+    was included in a [Flask Application](/missiontomars/Flask/app.py). Also, __Pymongo__ library for the database was used and
+    each time the /scrape URL is visited, the existing document is overwritten and new data is obtained.
     
    * Go to the [repository](missiontomars/) 
    
@@ -36,7 +37,7 @@ Applying the skills learned so far to some real-world situations.
 
 ## UFO sightings -> JavaScript and DOM Manipulation
 
-   HTML, CSS, Bootstrap, JavaScript and D3.js were used to explore the [UFO Sightings Data](/jsdom/static/js/data.js), 
+   __HTML, CSS, Bootstrap, JavaScript and D3.js__ were used to explore the [UFO Sightings Data](/jsdom/static/js/data.js), 
     an array of JavaScript objects, and to present it in a HTML table that is dynamically created. Also, the user can 
     filter the dataset.
     
@@ -51,8 +52,8 @@ Applying the skills learned so far to some real-world situations.
 
 ## Belly Button Biodiversity Dashboard -> Interactive Visualizations and Dashboard
 
-   HTML, CSS, Bootstrap, JavaScript, D3.js, Plotly.js, JSON, Flask with a SQLite database, and Heroku with a 
-   Postgress database, were used to build an interactive dashboard for exploring the Belly Button Biodiversity DataSet.
+   __HTML, CSS, Bootstrap, JavaScript, D3.js, Plotly.js, JSON, Flask with a SQLite database, and Heroku with a 
+   Postgress database__, were used to build an interactive dashboard for exploring the Belly Button Biodiversity dataset.
 
    - Step 1. Use Plotly.js to build [interactive charts](plotly/bkabelly/static/js/app.js) for the dashboard. 
     Includes:
